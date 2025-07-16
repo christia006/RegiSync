@@ -1,16 +1,14 @@
 # 📋 **RegiSync — Smart Registration & Attendance System**
 
-RegiSync adalah platform cerdas untuk manajemen pendaftaran dan absensi,  
-mengintegrasikan data Google Forms langsung ke PostgreSQL dan menyediakan fitur otentikasi peserta serta dashboard admin lengkap.
+RegiSync adalah platform yang dirancang untuk manajemen pendaftaran dan absensi peserta, dengan fokus pada pengelolaan data lokal di PostgreSQL dan fitur admin yang komprehensif.
 
 ## ✨ Fungsi utama
-✅ Integrasi Google Forms → data pendaftaran & absensi langsung ke PostgreSQL  
 ✅ Otentikasi peserta → cek status pendaftaran & kehadiran  
 ✅ Dashboard admin → validasi, edit data, approval, delete  
 
 ## 🔧 Fitur tambahan
 ✨ QR code untuk absensi (generate otomatis)  
-✨ Email/SMS konfirmasi otomatis ke peserta  
+✨ Email konfirmasi otomatis ke peserta  
 ✨ Export data + filter advanced  
 ✨ Log error & rollback otomatis saat sync gagal  
 
