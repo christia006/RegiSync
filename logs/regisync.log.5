@@ -1,0 +1,156 @@
+2025-07-16 09:26:03,410 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:26:03,410 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:26:03,411 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:26:03,411 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:26:04,335 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:26:04,336 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:26:04,336 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:26:04,336 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:27:00,862 - app.utils.helpers - ERROR - Failed to log error to database: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+Traceback (most recent call last):
+  File "D:\GitHub\RegiSync\app\services\auth_service.py", line 32, in create_admin
+    existing_admin = Admin.query.filter_by(username=username).first()
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2239, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\flask_sqlalchemy\session.py", line 53, in get_bind
+    engines = self._db.engines
+              ^^^^^^^^^^^^^^^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\flask_sqlalchemy\extension.py", line 690, in engines
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\GitHub\RegiSync\app\utils\helpers.py", line 14, in log_error
+    db.session.commit()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\scoping.py", line 599, in commit
+    return self._proxied.commit()
+           ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2032, in commit
+    trans.commit(_to_root=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "<string>", line 2, in commit
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1313, in commit
+    self._prepare_impl()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "<string>", line 2, in _prepare_impl
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1288, in _prepare_impl
+    self.session.flush()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4345, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4480, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4441, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 68, in save_obj
+    ) in _organize_states_for_save(base_mapper, states, uowtransaction):
+         ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 223, in _organize_states_for_save
+    for state, dict_, mapper, connection in _connections_for_states(
+                                            ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper, uowtransaction, states
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1753, in _connections_for_states
+    connection = uowtransaction.transaction.connection(base_mapper)
+  File "<string>", line 2, in connection
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1038, in connection
+    bind = self.session.get_bind(bindkey, **kwargs)
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\flask_sqlalchemy\session.py", line 53, in get_bind
+    engines = self._db.engines
+              ^^^^^^^^^^^^^^^^
+  File "D:\GitHub\RegiSync\venv\Lib\site-packages\flask_sqlalchemy\extension.py", line 690, in engines
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2025-07-16 09:36:03,385 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:36:03,386 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:36:03,386 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:36:03,386 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:36:04,193 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:36:04,193 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:36:04,194 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:36:04,194 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:38:43,039 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:38:43,039 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:38:43,040 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:38:43,040 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:39:16,157 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:39:16,158 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:39:16,158 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:39:16,158 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:39:17,135 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:39:17,135 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:39:17,135 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:39:17,136 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:45:00,248 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:45:00,249 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:45:00,249 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:45:00,249 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:45:01,027 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:45:01,027 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:45:01,027 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:45:01,027 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:47:03,817 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:47:03,817 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:47:03,818 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:47:03,818 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:47:16,738 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:47:16,738 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:47:16,739 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).

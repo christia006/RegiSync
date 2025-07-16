@@ -1,0 +1,101 @@
+2025-07-16 09:47:16,739 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:47:29,575 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:47:29,575 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:47:29,576 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:47:29,576 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:50:08,484 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:50:08,485 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:50:08,485 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:50:08,487 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:50:15,014 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:50:15,014 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:50:15,014 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:50:15,015 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:50:25,289 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:50:25,290 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:50:25,290 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:50:25,290 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:58:57,251 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:58:57,252 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:58:57,252 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:58:57,252 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:59:04,676 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:59:04,677 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:59:04,677 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:59:04,678 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 09:59:13,592 - app.routes - INFO - AuthService initialized.
+2025-07-16 09:59:13,593 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:59:13,593 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 09:59:13,593 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:02:43,179 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:02:43,179 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:02:43,179 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:02:43,180 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:02:52,463 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:02:52,463 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:02:52,464 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:02:52,464 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:03:00,122 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:03:00,122 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:03:00,122 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:03:00,123 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:05:08,675 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:05:08,675 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:05:08,675 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:05:08,676 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:05:16,253 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:05:16,253 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:05:16,254 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:05:16,254 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:05:24,687 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:05:24,687 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:05:24,687 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:05:24,687 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:05:32,073 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:05:32,073 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:05:32,073 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:05:32,074 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:05:32,669 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:05:32,670 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:05:32,670 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:05:32,670 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:09:08,206 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:09:08,207 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:09:08,207 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:09:08,207 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:10:19,269 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:10:19,269 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:10:19,269 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:10:19,270 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:10:25,136 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:10:25,136 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:10:25,137 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:10:25,137 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:10:34,220 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:10:34,221 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:10:34,221 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:10:34,221 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:10:42,378 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:10:42,378 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:10:42,378 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:10:42,378 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:10:42,947 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:10:42,947 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:10:42,947 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:10:42,947 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:12:25,766 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:12:25,766 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:12:25,766 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:12:25,767 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:12:44,059 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:12:44,059 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:12:44,060 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:12:44,060 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:12:52,525 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:12:52,526 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:12:52,526 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:12:52,526 - app.routes - INFO - QRCodeService initialized.
+2025-07-16 10:12:53,097 - app.routes - INFO - AuthService initialized.
+2025-07-16 10:12:53,098 - app.services.email_sms_service - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:12:53,098 - app.routes - INFO - EmailSMSService initialized (SMS functionality removed).
+2025-07-16 10:12:53,098 - app.routes - INFO - QRCodeService initialized.

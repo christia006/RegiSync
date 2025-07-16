@@ -1,10 +1,11 @@
-Flask==2.3.3 # Specify version for stability
+Flask==2.3.3
 Flask-SQLAlchemy==3.0.3
-psycopg2-binary==2.9.9
+asyncpg>=0.29.0  # Ubah ini
+SQLAlchemy[asyncio]==2.0.41
 google-api-python-client==2.100.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.1.0
 qrcode[pil]==7.4.2
 python-dotenv==1.0.0
 Twilio==8.1.0
-Werkzeug==2.3.7 # For security utilities like password hashing
+Werkzeug==2.3.7
